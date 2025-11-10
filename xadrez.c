@@ -7,7 +7,7 @@ int main() {
 
     printf("=== Movimento da Torre ===\n");
     for (int i = 1; i <= 5; i++) {
-        printf("Casa %d: Direita\n", i);
+        printf("Direita\n");
     }
 
     // === BISPO ===
@@ -17,7 +17,7 @@ int main() {
     printf("\n=== Movimento do Bispo ===\n");
     int i = 1;
     while (i <= 5) {
-        printf("Casa %d: Cima, Direita\n", i);
+        printf("Cima, Direita\n");
         i++;
     }
 
@@ -28,11 +28,9 @@ int main() {
     printf("\n=== Movimento da Rainha ===\n");
     int j = 1;
     do {
-        printf("Casa %d: Esquerda\n", j);
+        printf("Esquerda\n");
         j++;
     } while (j <= 8);
 
-    printf("\nMovimentos concluídos!\n");
-
-    return 0;
+   return 0;
 }
